@@ -34,7 +34,30 @@ for j in s2:
          a = a+50
 print(a)
 na =" "
-for k in a:
-    if k == 10:
+for k in str(a):
+    if k == "10":
+        print("a")
+num=int(a)
+sum=0
+while (num > 0):
+
+    r=num%10
+    sum=(r*10)+sum
+    
+    if num==10:
         print("X")
+    elif num== 5:
+        print("V")
+    elif num==1000:
+        print("M")
+    elif num==500:
+        print("D")
+    elif num==100:
+        print(C)
+    elif num==1:
+        print("I")
+    elif num==50:
+        print("L")    
+    num=num//10
+        
 
